@@ -1,4 +1,4 @@
-# ENGLISH PREMIER LEAGUE STANDING TABLE 
+# ENGLISH PREMIER LEAGUE STANDINGS TABLE 
 
 ### Football (Soccer) API from [All Sports API](https://allsportsapi.com/)
 
