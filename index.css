@@ -46,11 +46,11 @@ Responsive Table from https://codepen.io/FluidOfInsanity/pen/yaLRjd
   }
   
   .rwd-table td:before {
-    content: attr(data-th) ": ";
-    font-weight: bold;
+    content: attr(data-th) ;
     width: 120px;
     display: inline-block;
     color: #000;
+    font-size: medium;
   }
   
   .rwd-table th,

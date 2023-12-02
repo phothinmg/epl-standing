@@ -28,7 +28,7 @@ function show(data) {
        <tr>
            <th></th>
            <th></th>
-           <th>Club</th>
+           <th>Team</th>
            <th>MP</th>
            <th>W</th>
            <th>D</th>
@@ -42,9 +42,9 @@ function show(data) {
 
       for (let r of getData) {
          tab += `<tr> 
-         <td>${r.standing_place}</td>
-         <td><img src="${r.team_logo}" alt="timg" class="timg"></td>
-         <td data-th="Club">${r.standing_team}</td>
+         <td data-th="Rank">${r.standing_place}</td>
+         <td data-th="Logo"><img src="${r.team_logo}" alt="timg" class="timg"></td>
+         <td data-th="Team">${r.standing_team}</td>
          <td data-th="MP">${r.standing_P}</td>
          <td data-th="W">${r.standing_W}</td> 
          <td data-th="D">${r.standing_D}</td> 
